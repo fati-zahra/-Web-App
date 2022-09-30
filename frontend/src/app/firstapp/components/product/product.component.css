@@ -1,0 +1,34 @@
+
+#full-page
+{
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(bok.jpg);
+	background-attachment: fixed;
+	background-repeat: none;
+	position: relative;
+  height: 100%;
+	width: 100%;
+	background-position: center;
+  	background-size: cover;
+
+}
+
+.table
+{
+    width:50%;
+	height:680px;
+	position:relative;
+	margin:2% auto;
+	background:rgba(0,0,0,0.8);
+	padding:10px;
+    overflow: hidden;
+}
+th{
+
+    font-size: 15px;
+    color: rgb(55, 168, 203);
+    font-family: sans-serif;
+}
+ td{
+    font-size: 20px;
+    color: white;
+ }

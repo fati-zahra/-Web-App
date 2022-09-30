@@ -1,0 +1,12 @@
+
+.album
+{
+	background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.1)),url(hd.jpg);
+	background-attachment: fixed;
+
+  height: 100%;
+	width: 100%;
+	background-position: center;
+  	background-size: cover;
+
+}

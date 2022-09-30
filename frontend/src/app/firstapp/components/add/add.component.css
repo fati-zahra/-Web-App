@@ -1,0 +1,19 @@
+
+#full-page
+{
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(bok.jpg);
+  height: 100%;
+	width: 100%;
+	background-position: center;
+  	background-size: cover;
+
+}
+.form{
+    width:50%;
+    height: 300px;
+
+     position:relative;
+     margin:3% auto;
+     background:#E2E2DA;
+     overflow: hidden;
+ }

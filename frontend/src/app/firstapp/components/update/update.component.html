@@ -1,0 +1,17 @@
+<div id="full-page">
+    <div class="form">
+<form onSubmit={submit}>
+    <div class="form-group">
+        <label>Title {{currentproduct.id}} </label>
+        <input type="text" class="form-control"  placeholder="{{currentproduct.id}}" name="title" [(ngModel)]="currentproduct.title"/>
+    </div>
+    <div class="form-group">
+        <label>Image</label>
+        <input type="file" class="form-control" name="image" [(ngModel)]="currentproduct.image"/>
+    </div>
+    
+    <button  class="btn btn-outline-secondary"  (click)="updateProduct()" [routerLink]="'/product'">Save changes</button>
+
+</form>
+</div>
+</div>
